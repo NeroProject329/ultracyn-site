@@ -21,15 +21,14 @@ const Footer = () => {
           </h3>
 
           <p className="text-sm text-gray-300">
-            <strong className="text-white">Razão Social:</strong> Borges
-            Ferreira Consultoria Contabil e Empresarial LTDA
+            <strong className="text-white">Razão Social:</strong> Miranda Assessoria e Serviços Contábeis LTDA
           </p>
 
           <p className="text-sm text-gray-300 flex items-center gap-2">
             <FileText className="w-4 h-4 text-accent" />
             <span>
               <strong className="text-white">CNPJ:</strong>{" "}
-              57.924.057/0001-02
+              01.006.713/0001-25
             </span>
           </p>
         </div>
@@ -42,14 +41,11 @@ const Footer = () => {
           </h3>
 
           <p className="text-sm text-gray-300">
-            Avenida Manoel Monteiro - Lado Par, 390, Quadra15 Lote 21 Andar 2
+            Rua Lázaro de Melo, 56, Centro, Formosa/GO 
           </p>
 
-          <p className="text-sm text-gray-300">
-            Vila Jardim Salvador - Trindade/Trindade
-          </p>
 
-          <p className="text-sm text-gray-300">CEP: 75388-455</p>
+          <p className="text-sm text-gray-300">CEP: 73801-550</p>
         </div>
 
         {/* Contato */}
@@ -64,15 +60,15 @@ const Footer = () => {
             className="text-sm text-gray-300 flex items-center gap-2 hover:text-accent transition-colors"
           >
             <Phone className="w-4 h-4 text-accent" />
-            (62) 98583-8656
+            (75) 97878-5020
           </a>
 
           <a
-            href="mailto:contato@contabilconsultoria.com"
+            href="mailto:contato@ultracyn.site"
             className="text-sm text-gray-300 flex items-center gap-2 hover:text-accent transition-colors"
           >
             <Mail className="w-4 h-4 text-accent" />
-            contato@consultoriacontabil.com
+            contato@ultracyn.site
           </a>
         </div>
 
@@ -103,8 +99,7 @@ const Footer = () => {
 
       <div className="max-w-6xl mx-auto mt-8 pt-6 border-t border-accent/10 text-center">
         <p className="text-xs text-gray-400">
-          © {new Date().getFullYear()} Borges Ferreira Consultoria Contabil e
-          Empresarial LTDA. Todos os direitos reservados.
+          © {new Date().getFullYear()} Miranda Assessoria e Serviços Contábeis LTDA Todos os direitos reservados.
         </p>
       </div>
     </footer>

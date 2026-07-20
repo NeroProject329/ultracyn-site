@@ -17,37 +17,37 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Política de Privacidade | Contabilconsultoria",
+  title: "Política de Privacidade | Miranda Assessoria e Serviços Contábeis LTDA",
   description:
-    "Política de Privacidade da Borges Ferreira Consultoria Contabil e Empresarial LTDA.",
+    "Política de Privacidade da Borges Ferreira Miranda Assessoria e Serviços Contábeis LTDA.",
 };
 
 const companyInfo = [
   {
     icon: Building2,
     label: "Razão Social",
-    value: "Borges Ferreira Consultoria Contabil e Empresarial LTDA",
+    value: "Miranda Assessoria e Serviços Contábeis LTDA",
   },
   {
     icon: FileText,
     label: "CNPJ",
-    value: "57.924.057/0001-02",
+    value: "01.006.713/0001-25",
   },
   {
     icon: MapPin,
     label: "Endereço",
     value:
-      "Avenida Manoel Monteiro - Lado Par, 390, Quadra15 Lote 21 Andar 2, Vila Jardim Salvador - Trindade/Trindade, CEP: 75388-455",
+      "Rua Lázaro de Melo, 56, Centro, Formosa/GO - CEP 73801-550",
   },
   {
     icon: Mail,
     label: "E-mail",
-    value: "contato@consultoriacontabil.com",
+    value: "contato@ultracyn.site",
   },
   {
     icon: Phone,
     label: "Telefone",
-    value: "(62) 98583-8656",
+    value: "(75) 97878-5020",
   },
 ];
 
@@ -208,17 +208,17 @@ export default function PoliticaDePrivacidadePage() {
 
             <div className="flex flex-col sm:flex-row gap-3">
               <a
-                href="mailto:contato@contabilconsultoria.com"
+                href="mailto:contato@ultracyn.site"
                 className="btn-primary-solution inline-flex justify-center"
               >
-                contato@consultoriacontabil.com
+                contato@ultracyn.site
               </a>
 
               <a
                 href="tel:+5562985838656"
                 className="btn-primary-solution inline-flex justify-center bg-accent hover:bg-accent/90"
               >
-                (62) 98583-8656
+                (75) 97878-5020
               </a>
             </div>
           </div>

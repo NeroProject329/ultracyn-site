@@ -17,37 +17,37 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Termos de Uso | Contabilconsultoria",
+  title: "Termos de Uso | Miranda Assessoria e Serviços Contábeis ",
   description:
-    "Termos de Uso da Borges Ferreira Consultoria Contabil e Empresarial LTDA.",
+    "Termos de Uso da Miranda Assessoria e Serviços Contábeis LTDA.",
 };
 
 const companyInfo = [
   {
     icon: Building2,
     label: "Razão Social",
-    value: "Borges Ferreira Consultoria Contabil e Empresarial LTDA",
+    value: "Miranda Assessoria e Serviços Contábeis LTDA",
   },
   {
     icon: FileText,
     label: "CNPJ",
-    value: "57.924.057/0001-02",
+    value: "01.006.713/0001-25",
   },
   {
     icon: MapPin,
     label: "Endereço",
     value:
-      "Avenida Manoel Monteiro - Lado Par, 390, Quadra15 Lote 21 Andar 2, Vila Jardim Salvador - Trindade/Trindade, CEP: 75388-455",
+      "Rua Lázaro de Melo, 56, Centro, Formosa/GO - CEP 73801-550",
   },
   {
     icon: Mail,
     label: "E-mail",
-    value: "contato@consultoriacontabil.com",
+    value: "contato@ultracyn.site",
   },
   {
     icon: Phone,
     label: "Telefone",
-    value: "(62) 98583-8656",
+    value: "(75) 97878-5020",
   },
 ];
 
@@ -64,7 +64,7 @@ const termsSections = [
     icon: Scale,
     title: "2. Sobre os serviços",
     content: [
-      "A Borges Ferreira Consultoria Contabil e Empresarial LTDA atua com consultoria, atendimento, orientação e intermediação de soluções conforme as necessidades apresentadas pelo usuário.",
+      "A Miranda Assessoria e Serviços Contábeis LTDA atua com consultoria, atendimento, orientação e intermediação de soluções conforme as necessidades apresentadas pelo usuário.",
       "As informações exibidas no site possuem caráter informativo e comercial, podendo ser atualizadas, alteradas ou removidas a qualquer momento.",
     ],
   },
@@ -138,7 +138,7 @@ export default function TermosDeUsoPage() {
             <p className="text-primary-foreground/80 text-lg md:text-xl leading-relaxed">
               Estes Termos de Uso estabelecem as regras para acesso,
               navegação, utilização do site e relacionamento inicial com a
-              Borges Ferreira Consultoria Contabil e Empresarial LTDA.
+              Miranda Assessoria e Serviços Contábeis LTDA.
             </p>
 
             <p className="text-primary-foreground/70 text-sm mt-5">
@@ -215,17 +215,17 @@ export default function TermosDeUsoPage() {
 
             <div className="flex flex-col sm:flex-row gap-3">
               <a
-                href="mailto:contato@consultoriacontabil.com"
+                href="mailto:contato@ultracyn.site"
                 className="btn-primary-solution inline-flex justify-center"
               >
-                contato@consultoriacontabil.com
+                contato@ultracyn.site
               </a>
 
               <a
                 href="tel:+5562985838656"
                 className="btn-primary-solution inline-flex justify-center bg-accent hover:bg-accent/90"
               >
-                (62) 98583-8656
+                (75) 97878-5020
               </a>
             </div>
           </div>
