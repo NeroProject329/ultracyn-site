@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 import { Users, Percent, ShieldCheck, Clock } from "lucide-react";
 
 const stats = [
-  { icon: Users, value: "16M+", label: "Clientes Atendidos" },
-  { icon: Percent, value: "98%", label: "Desconto Máximo" },
-  { icon: ShieldCheck, value: "100%", label: "Seguro e Confiável" },
-  { icon: Clock, value: "5 Anos", label: "No Mercado" },
+  { icon: Users, value: "Experiência Profissional", label: "Atuação contabil" },
+  { icon: Percent, value: "Atendimento Personalizado", label: "Suporte individual" },
+  { icon: ShieldCheck, value: "Atendimento Online", label: "Canais oficiais" },
+  { icon: Clock, value: "Suporte ágil", label: "Atendimento dedicado" },
 ];
 
 const StatsSection = () => {

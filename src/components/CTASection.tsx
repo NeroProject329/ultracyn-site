@@ -16,8 +16,8 @@ const CTASection = () => {
           transition={{ duration: 0.6 }}
         >
           <h2 className="font-heading text-3xl md:text-5xl font-bold text-primary-foreground mb-4">
-            Pronto para ficar{" "}
-            <span className="text-accent">no azul?</span>
+            Atendimento especializado para {" "}
+            <span className="text-accent">você !</span>
           </h2>
           <p className="text-primary-foreground/80 text-lg mb-8 max-w-xl mx-auto">
             Descubra as soluções exclusivas disponíveis para você agora mesmo.
@@ -28,7 +28,7 @@ const CTASection = () => {
             whileTap={{ scale: 0.95 }}
             onClick={() => void openZap("Olá! Quero consultar grátis agora.")}
           >
-            Consultar Grátis Agora
+            FALAR COM NOSSA EQUIPE
           </motion.button>
         </motion.div>
       </div>

@@ -38,9 +38,7 @@ const HeroSection = () => {
               animate={{ y: 0 }}
               transition={{ delay: 0.4, duration: 0.6 }}
             >
-              Volte para o Azul
-              <br />
-              Hoje Mesmo!
+              Atendimento pensado para você.
             </motion.h1>
 
             <motion.p
@@ -49,7 +47,7 @@ const HeroSection = () => {
               animate={{ y: 0 }}
               transition={{ delay: 0.6, duration: 0.6 }}
             >
-              Verifique as soluções disponíveis para você de forma rápida, prática e 100% online.
+              Conte com nossa equipe para conhecer os serviços disponíveis e esclarecer suas dúvidas.
             </motion.p>
 
             <motion.div
@@ -62,17 +60,10 @@ const HeroSection = () => {
                 className="btn-primary-hero bg-background text-primary hover:bg-background/90"
                 onClick={() => void openZap("Olá! Quero consultar grátis agora.")}
               >
-                Consultar Grátis
+                Saiba mais
               </button>
 
-              <button
-                className="btn-outline-hero"
-                onClick={() =>
-                  void openZap("Olá! Quero saber mais sobre as soluções disponíveis.")
-                }
-              >
-                Saiba Mais
-              </button>
+
             </motion.div>
 
             <motion.div
