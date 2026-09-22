@@ -2,8 +2,8 @@
 
 import { motion } from "framer-motion";
 import { Shield, Zap, CheckCircle } from "lucide-react";
-import heroWomanMobile from "@/assets/hero-woman-mobile.png";
-import heroWomanDesktop from "@/assets/hero-woman-desktop.png";
+import heroWomanMobile from "@/assets/Mesemmf.png";
+import heroWomanDesktop from "@/assets/Mesemmf.png";
 import { openZap } from "@/lib/zap-api";
 
 const HeroSection = () => {
